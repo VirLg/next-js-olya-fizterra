@@ -6,7 +6,7 @@ import Telegramm from '../icons/Telegram_(software)-Logo.wine.svg';
 import FB from '../icons/facebook-svgrepo-com.svg';
 import Viber from '../icons/viber-svgrepo-com.svg';
 import Insta from '../icons/icons8-instagram.svg';
-import Logo from '../images/logo1.png';
+import Logo from '../images/logo-copy.jpg';
 const navItems = [
   { label: 'Home', href: '/' },
   { label: 'Contacts', href: '/contacts' },
