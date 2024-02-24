@@ -10,13 +10,15 @@ const Navigation = ({ navLinks }) => {
       {navLinks.map(el => {
         const isActive = pathname === el.href;
         return (
-          <Link
-            key={el.label}
-            href={el.href}
-            className={isActive ? 'active' : ''}
-          >
-            {el.label}
-          </Link>
+          <li className="mr-[40px]">
+            <Link
+              key={el.label}
+              href={el.href}
+              className={isActive ? 'active' : ''}
+            >
+              {el.label}
+            </Link>
+          </li>
         );
       })}
     </>
