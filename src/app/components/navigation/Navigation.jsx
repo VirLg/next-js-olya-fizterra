@@ -3,11 +3,11 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-const Navigation = ({ navLinks }) => {
+const Navigation = ({ navItems }) => {
   const pathname = usePathname();
   return (
     <>
-      {navLinks.map(el => {
+      {navItems.map(el => {
         const isActive = pathname === el.href;
         return (
           <li className="mr-[40px]">

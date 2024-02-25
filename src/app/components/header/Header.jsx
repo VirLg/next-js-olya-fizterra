@@ -19,7 +19,7 @@ export default function Header() {
         <img src={Logo.src} alt="logo" width={'250px'} />
 
         <ul className="flex">
-          <Navigation navLinks={navItems} />
+          <Navigation navItems={navItems} />
         </ul>
       </div>
       <div className="flex justify-center items-center gap-[60px] ">
