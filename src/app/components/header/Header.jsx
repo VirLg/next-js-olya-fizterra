@@ -9,8 +9,8 @@ import Insta from '../icons/icons8-instagram.svg';
 import Logo from '../images/logo-copy.jpg';
 const navItems = [
   { label: 'Home', href: '/' },
-  { label: 'Contacts', href: '/contacts' },
   { label: 'Gallery', href: '/gallery' },
+  { label: 'Contacts', href: '/contacts' },
 ];
 export default function Header() {
   return (
