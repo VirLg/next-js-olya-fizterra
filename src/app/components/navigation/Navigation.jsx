@@ -10,12 +10,8 @@ const Navigation = ({ navItems }) => {
       {navItems.map(el => {
         const isActive = pathname === el.href;
         return (
-          <li className="mr-[40px]">
-            <Link
-              key={el.label}
-              href={el.href}
-              className={isActive ? 'active' : ''}
-            >
+          <li className="mr-[40px]" key={el.label}>
+            <Link href={el.href} className={isActive ? 'active' : ''}>
               <span className="text-4xl text-lime-100">{el.label}</span>
             </Link>
           </li>
