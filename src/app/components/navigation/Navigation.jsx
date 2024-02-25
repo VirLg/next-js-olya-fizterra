@@ -16,7 +16,7 @@ const Navigation = ({ navLinks }) => {
               href={el.href}
               className={isActive ? 'active' : ''}
             >
-              {el.label}
+              <span className="text-4xl text-lime-100">{el.label}</span>
             </Link>
           </li>
         );

@@ -16,7 +16,7 @@ const QuestionItem = () => {
       return (
         <li onClick={() => handleClick(idx)} key={idx}>
           <div>
-            <p>{el.title}</p>
+            <p className="titleFont">{el.title}</p>
           </div>
         </li>
       );

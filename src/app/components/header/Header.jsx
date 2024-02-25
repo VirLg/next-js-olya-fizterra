@@ -13,21 +13,20 @@ const navItems = [
   { label: 'Gallery', href: '/gallery' },
 ];
 export default function Header() {
-  console.log('Logo', Logo);
   return (
-    <header className="container bg-green-900 h-[192px] p-6 m-auto ">
-      <div className="flex  justify-between items-end">
+    <header className="container bg-green-900 h-[188px] p-6 m-auto ">
+      <div className="flex  justify-between items-center">
         <img src={Logo.src} alt="logo" width={'250px'} />
 
         <ul className="flex">
           <Navigation navLinks={navItems} />
         </ul>
       </div>
-      <div className="flex justify-center items-center gap-[60px] mt-4">
-        <IconButton className="w-[60px] h-[60px]">{Telegramm} </IconButton>
-        <IconButton className="w-[30px] h-[30px]">{FB} </IconButton>
-        <IconButton className="w-[30px] h-[30px]">{Viber} </IconButton>
-        <IconButton className="w-[30px] h-[30px]">{Insta} </IconButton>
+      <div className="flex justify-center items-center gap-[60px] ">
+        <IconButton className="w-[70px] h-[70px]">{Telegramm} </IconButton>
+        <IconButton className="w-[40px] h-[40px]">{FB} </IconButton>
+        <IconButton className="w-[40px] h-[40px]">{Viber} </IconButton>
+        <IconButton className="w-[40px] h-[40px]">{Insta} </IconButton>
       </div>
     </header>
   );
