@@ -27,7 +27,7 @@ const QuestionItem = () => {
             <p className="titleFont">{el.title}</p>
           </div>
 
-          <div>
+          <div className="outline outline-2">
             <p className="titleFont">{el.context}</p>
           </div>
         </li>

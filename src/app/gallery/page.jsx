@@ -1,7 +1,11 @@
 import React from 'react';
-
-const Galery = () => {
-  return <div>page</div>;
+import GalleryItem from './galleryItem';
+const Gallery = () => {
+  return (
+    <div className="container grid grid-cols-3 gap-4">
+      <GalleryItem />
+    </div>
+  );
 };
 
-export default Galery;
+export default Gallery;
