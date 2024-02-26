@@ -1,5 +1,6 @@
-import Image from 'next/image';
+import Sertification from './components/sertification/Sertification';
 import Questions from '../app/components/questions/Questions';
+import Feedback from '../app/components/feedback/Feedback';
 export default function Home() {
   return (
     <main className="">
@@ -12,6 +13,13 @@ export default function Home() {
       </div>
       <div>
         <Questions />
+      </div>
+      <div>
+        <Sertification />
+      </div>
+      <div>
+        <h1>Customer feedback : </h1>
+        <Feedback />
       </div>
     </main>
   );
