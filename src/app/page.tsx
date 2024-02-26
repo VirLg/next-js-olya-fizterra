@@ -17,7 +17,7 @@ export default function Home() {
       <div>
         <Sertification />
       </div>
-      <div className="bg-lime-100">
+      <div className="container bg-lime-100">
         <h1>Customer feedback : </h1>
         <Feedback />
       </div>
