@@ -3,9 +3,9 @@ import Avatar from '../icons/avatar.svg';
 import { data } from './feedbackContent';
 
 const Feedback = () => {
-  return data.map(el => {
+  return data.map((el, idx) => {
     return (
-      <div className="container w-[800px] bg-lemon-300 p-4">
+      <div className="container w-[800px] bg-lime-100 p-4" key={idx}>
         <div className="flex items-center">
           <img src={Avatar.src} alt="avatar" width={'40px'} />
 
